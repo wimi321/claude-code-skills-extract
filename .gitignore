@@ -1,2 +1,4 @@
 .DS_Store
 .clawhub/
+auto_resume_publish.log
+nohup_publish.out
