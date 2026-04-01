@@ -3,6 +3,7 @@ name: "pull_request_reviewer"
 description: "Use when the user wants a local review of a GitHub pull request based on its diff, risks, quality, performance, tests, and security implications."
 ---
 
+
 # Pull Request Reviewer
 
 Use this skill for code review of an existing GitHub PR.
@@ -18,6 +19,29 @@ Use this skill for code review of an existing GitHub PR.
 - Base the review on the actual diff, not assumptions.
 - Findings first, summary second.
 - Keep comments actionable and specific.
+
+## Example Requests
+- Review PR #123 for correctness and risk.
+- List the biggest problems in this open PR.
+
+## Inputs
+- PR number or selection
+- GitHub diff
+- Repo conventions
+
+## Outputs
+- Ordered review findings
+- Risk summary
+- Improvement suggestions
+
+## Success Criteria
+- The review is grounded in the actual diff.
+- Findings are actionable.
+- Risky changes are prioritized.
+
+## Non-Goals
+- Generic praise-only review
+- Reviewing without reading the diff
 
 ## Source Provenance
 Derived from `src/commands/review.ts`.

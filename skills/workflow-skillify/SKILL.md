@@ -3,6 +3,7 @@ name: "workflow_skillify"
 description: "Use when a successful session or repeatable process should be captured as a reusable skill with steps, arguments, and invocation guidance."
 ---
 
+
 # Workflow Skillify
 
 Use this skill at the end of a repeatable process to capture it as a standalone skill.
@@ -18,6 +19,28 @@ Use this skill at the end of a repeatable process to capture it as a standalone 
 - Capture the user's corrections, not just the first draft of the process.
 - Keep the resulting skill concrete and execution-oriented.
 - Do not over-question simple workflows.
+
+## Example Requests
+- Turn this successful session into a reusable skill.
+- Capture the process we just followed as a formal skill.
+
+## Inputs
+- Session history
+- User corrections
+- Desired save scope
+
+## Outputs
+- Reusable SKILL.md
+- Trigger and argument guidance
+
+## Success Criteria
+- The resulting skill captures the real workflow.
+- User corrections are preserved as rules.
+- The saved skill is specific and reusable.
+
+## Non-Goals
+- Over-interviewing simple workflows
+- Saving a vague process with no triggers or success criteria
 
 ## Source Provenance
 Derived from `src/skills/bundled/skillify.ts`.

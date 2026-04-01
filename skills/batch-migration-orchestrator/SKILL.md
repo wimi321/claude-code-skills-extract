@@ -3,6 +3,7 @@ name: "batch_migration_orchestrator"
 description: "Use when the user wants a large, mechanical change split into many independent units and executed in parallel with isolated workers and PRs."
 ---
 
+
 # Batch Migration Orchestrator
 
 Use this skill for sweeping refactors, migrations, bulk renames, or repetitive codebase-wide edits.
@@ -28,6 +29,31 @@ Turn one large request into a safe parallel rollout with independent units, vali
 - Scope boundaries
 - Verification method
 - Branch/PR expectations
+
+## Example Requests
+- Migrate this monorepo from Jest to Vitest in parallel.
+- Split this bulk API rename into independently shippable work units.
+
+## Inputs
+- Migration goal
+- Affected modules or directories
+- Verification expectations
+- Branch or PR policy
+
+## Outputs
+- Work decomposition plan
+- Parallel worker prompts
+- Status tracking summary
+- PR or patch rollup
+
+## Success Criteria
+- Every unit has a clear scope.
+- No worker write conflicts exist.
+- Each unit includes verification.
+
+## Non-Goals
+- One-off tiny edits
+- Tightly coupled refactors that must land as one patch
 
 ## Source Provenance
 Derived from Claude Code bundled skill logic in `src/skills/bundled/batch.ts`.
