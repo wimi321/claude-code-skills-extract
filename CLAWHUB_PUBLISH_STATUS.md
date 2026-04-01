@@ -27,3 +27,8 @@ Blocked by ClawHub new-skill rate limit: max 5 new skills per hour.
 - `claude-code-stuck-session-diagnosis`
 - `claude-code-verifier-skill-generator`
 - `claude-code-workflow-skillify`
+
+## Monitor
+
+- Active background publisher session: `tmux attach -t clawhub-publish`
+- Resume script: `./resume_clawhub_publish.sh`
