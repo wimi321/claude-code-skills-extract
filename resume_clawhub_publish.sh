@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -e
-echo 'Publishing code-simplifier'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/code-simplifier --slug code-simplifier --name 'Code Simplifier' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing code-simplify'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/code-simplifier --slug code-simplify --name 'Code Simplifier' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing git-commit-pr-workflow'
 clawhub publish /Users/haoc/Developer/cc-mg55/skills/git-commit-pr-workflow --slug git-commit-pr-workflow --name 'Git Commit PR Workflow' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing git-commit-workflow'
@@ -10,8 +10,8 @@ echo 'Publishing keybindings-customizer'
 clawhub publish /Users/haoc/Developer/cc-mg55/skills/keybindings-customizer --slug keybindings-customizer --name 'Keybindings Customizer' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing memory-landscape-review'
 clawhub publish /Users/haoc/Developer/cc-mg55/skills/memory-landscape-review --slug memory-landscape-review --name 'Memory Landscape Review' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
-echo 'Publishing pull-request-reviewer'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/pull-request-reviewer --slug pull-request-reviewer --name 'Pull Request Reviewer' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing pr-audit'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/pull-request-reviewer --slug pr-audit --name 'Pull Request Reviewer' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing recurring-loop-runner'
 clawhub publish /Users/haoc/Developer/cc-mg55/skills/recurring-loop-runner --slug recurring-loop-runner --name 'Recurring Loop Runner' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing remote-agent-scheduler'

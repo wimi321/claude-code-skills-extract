@@ -1,17 +1,17 @@
 #!/bin/zsh
 set -e
-echo 'Publishing claude-code-batch-migration-orchestrator'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/batch-migration-orchestrator --slug claude-code-batch-migration-orchestrator --name 'Batch Migration Orchestrator' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
-echo 'Publishing claude-code-chrome-web-automation'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/chrome-web-automation --slug claude-code-chrome-web-automation --name 'Chrome Web Automation' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
-echo 'Publishing claude-code-claude-api-builder'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/claude-api-builder --slug claude-code-claude-api-builder --name 'Claude API Builder' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
-echo 'Publishing claude-code-claude-md-initializer'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/claude-md-initializer --slug claude-code-claude-md-initializer --name 'CLAUDE MD Initializer' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
-echo 'Publishing claude-code-claude-settings-editor'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/claude-settings-editor --slug claude-code-claude-settings-editor --name 'Claude Settings Editor' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
-echo 'Publishing code-simplifier'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/code-simplifier --slug code-simplifier --name 'Code Simplifier' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing batch-migration-orchestrator'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/batch-migration-orchestrator --slug batch-migration-orchestrator --name 'Batch Migration Orchestrator' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing chrome-web-automation'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/chrome-web-automation --slug chrome-web-automation --name 'Chrome Web Automation' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing claude-api-builder'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/claude-api-builder --slug claude-api-builder --name 'Claude API Builder' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing claude-md-initializer'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/claude-md-initializer --slug claude-md-initializer --name 'CLAUDE MD Initializer' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing claude-settings-editor'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/claude-settings-editor --slug claude-settings-editor --name 'Claude Settings Editor' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing code-simplify'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/code-simplifier --slug code-simplify --name 'Code Simplifier' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing git-commit-pr-workflow'
 clawhub publish /Users/haoc/Developer/cc-mg55/skills/git-commit-pr-workflow --slug git-commit-pr-workflow --name 'Git Commit PR Workflow' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing git-commit-workflow'
@@ -20,8 +20,8 @@ echo 'Publishing keybindings-customizer'
 clawhub publish /Users/haoc/Developer/cc-mg55/skills/keybindings-customizer --slug keybindings-customizer --name 'Keybindings Customizer' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing memory-landscape-review'
 clawhub publish /Users/haoc/Developer/cc-mg55/skills/memory-landscape-review --slug memory-landscape-review --name 'Memory Landscape Review' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
-echo 'Publishing pull-request-reviewer'
-clawhub publish /Users/haoc/Developer/cc-mg55/skills/pull-request-reviewer --slug pull-request-reviewer --name 'Pull Request Reviewer' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
+echo 'Publishing pr-audit'
+clawhub publish /Users/haoc/Developer/cc-mg55/skills/pull-request-reviewer --slug pr-audit --name 'Pull Request Reviewer' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing recurring-loop-runner'
 clawhub publish /Users/haoc/Developer/cc-mg55/skills/recurring-loop-runner --slug recurring-loop-runner --name 'Recurring Loop Runner' --version 1.0.0 --changelog 'Initial extraction from local Claude Code source' --tags latest,claude-code,extracted
 echo 'Publishing remote-agent-scheduler'

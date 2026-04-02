@@ -34,30 +34,30 @@ The goal is not to dump prompts. The goal is to ship public-quality skill artifa
 
 ## Standalone Skill Repositories
 
-Every extracted skill is also prepared as an independent GitHub repository under `wimi321`, using the naming convention `claude-code-<skill-slug>`.
+Every extracted skill is also prepared as an independent GitHub repository under `wimi321`, using the short repository naming convention `<skill-slug>`.
 
 | Skill | Independent Repo |
 |---|---|
-| `batch-migration-orchestrator` | [claude-code-batch-migration-orchestrator](https://github.com/wimi321/claude-code-batch-migration-orchestrator) |
-| `chrome-web-automation` | [claude-code-chrome-web-automation](https://github.com/wimi321/claude-code-chrome-web-automation) |
-| `claude-api-builder` | [claude-code-claude-api-builder](https://github.com/wimi321/claude-code-claude-api-builder) |
-| `claude-md-initializer` | [claude-code-claude-md-initializer](https://github.com/wimi321/claude-code-claude-md-initializer) |
-| `claude-settings-editor` | [claude-code-claude-settings-editor](https://github.com/wimi321/claude-code-claude-settings-editor) |
-| `code-simplifier` | [claude-code-code-simplifier](https://github.com/wimi321/claude-code-code-simplifier) |
-| `git-commit-pr-workflow` | [claude-code-git-commit-pr-workflow](https://github.com/wimi321/claude-code-git-commit-pr-workflow) |
-| `git-commit-workflow` | [claude-code-git-commit-workflow](https://github.com/wimi321/claude-code-git-commit-workflow) |
-| `keybindings-customizer` | [claude-code-keybindings-customizer](https://github.com/wimi321/claude-code-keybindings-customizer) |
-| `memory-landscape-review` | [claude-code-memory-landscape-review](https://github.com/wimi321/claude-code-memory-landscape-review) |
-| `pull-request-reviewer` | [claude-code-pull-request-reviewer](https://github.com/wimi321/claude-code-pull-request-reviewer) |
-| `recurring-loop-runner` | [claude-code-recurring-loop-runner](https://github.com/wimi321/claude-code-recurring-loop-runner) |
-| `remote-agent-scheduler` | [claude-code-remote-agent-scheduler](https://github.com/wimi321/claude-code-remote-agent-scheduler) |
-| `runtime-verifier` | [claude-code-runtime-verifier](https://github.com/wimi321/claude-code-runtime-verifier) |
-| `security-review-workflow` | [claude-code-security-review-workflow](https://github.com/wimi321/claude-code-security-review-workflow) |
-| `session-debug-log-investigator` | [claude-code-session-debug-log-investigator](https://github.com/wimi321/claude-code-session-debug-log-investigator) |
-| `statusline-setup` | [claude-code-statusline-setup](https://github.com/wimi321/claude-code-statusline-setup) |
-| `stuck-session-diagnosis` | [claude-code-stuck-session-diagnosis](https://github.com/wimi321/claude-code-stuck-session-diagnosis) |
-| `verifier-skill-generator` | [claude-code-verifier-skill-generator](https://github.com/wimi321/claude-code-verifier-skill-generator) |
-| `workflow-skillify` | [claude-code-workflow-skillify](https://github.com/wimi321/claude-code-workflow-skillify) |
+| `batch-migration-orchestrator` | [batch-migration-orchestrator](https://github.com/wimi321/batch-migration-orchestrator) |
+| `chrome-web-automation` | [chrome-web-automation](https://github.com/wimi321/chrome-web-automation) |
+| `claude-api-builder` | [claude-api-builder](https://github.com/wimi321/claude-api-builder) |
+| `claude-md-initializer` | [claude-md-initializer](https://github.com/wimi321/claude-md-initializer) |
+| `claude-settings-editor` | [claude-settings-editor](https://github.com/wimi321/claude-settings-editor) |
+| `code-simplifier` | [code-simplifier](https://github.com/wimi321/code-simplifier) |
+| `git-commit-pr-workflow` | [git-commit-pr-workflow](https://github.com/wimi321/git-commit-pr-workflow) |
+| `git-commit-workflow` | [git-commit-workflow](https://github.com/wimi321/git-commit-workflow) |
+| `keybindings-customizer` | [keybindings-customizer](https://github.com/wimi321/keybindings-customizer) |
+| `memory-landscape-review` | [memory-landscape-review](https://github.com/wimi321/memory-landscape-review) |
+| `pull-request-reviewer` | [pull-request-reviewer](https://github.com/wimi321/pull-request-reviewer) |
+| `recurring-loop-runner` | [recurring-loop-runner](https://github.com/wimi321/recurring-loop-runner) |
+| `remote-agent-scheduler` | [remote-agent-scheduler](https://github.com/wimi321/remote-agent-scheduler) |
+| `runtime-verifier` | [runtime-verifier](https://github.com/wimi321/runtime-verifier) |
+| `security-review-workflow` | [security-review-workflow](https://github.com/wimi321/security-review-workflow) |
+| `session-debug-log-investigator` | [session-debug-log-investigator](https://github.com/wimi321/session-debug-log-investigator) |
+| `statusline-setup` | [statusline-setup](https://github.com/wimi321/statusline-setup) |
+| `stuck-session-diagnosis` | [stuck-session-diagnosis](https://github.com/wimi321/stuck-session-diagnosis) |
+| `verifier-skill-generator` | [verifier-skill-generator](https://github.com/wimi321/verifier-skill-generator) |
+| `workflow-skillify` | [workflow-skillify](https://github.com/wimi321/workflow-skillify) |
 
 ## Published to ClawHub
 
@@ -65,11 +65,11 @@ ClawHub publish progress is tracked in [CLAWHUB_PUBLISH_STATUS.md](./CLAWHUB_PUB
 
 Already published:
 
-- `claude-code-batch-migration-orchestrator`
-- `claude-code-chrome-web-automation`
-- `claude-code-claude-api-builder`
-- `claude-code-claude-md-initializer`
-- `claude-code-claude-settings-editor`
+- `batch-migration-orchestrator`
+- `chrome-web-automation`
+- `claude-api-builder`
+- `claude-md-initializer`
+- `claude-settings-editor`
 
 The remaining skills are queued behind the current ClawHub new-skill rate limit and are being resumed automatically.
 

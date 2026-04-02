@@ -11,7 +11,7 @@ Primary collection repository:
 
 - [claude-code-skills-extract](https://github.com/wimi321/claude-code-skills-extract)
 
-Standalone repositories are generated locally, then synced one-by-one to GitHub under the `claude-code-<skill-slug>` naming convention.
+Standalone repositories are generated locally, then synced one-by-one to GitHub under the `<skill-slug>` naming convention.
 
 ### Generate standalone repositories
 
@@ -35,9 +35,16 @@ The sync script will:
 
 ## ClawHub
 
-This project now targets concise ClawHub slugs such as `code-simplifier` and `runtime-verifier`.
+This project now targets concise ClawHub slugs such as `batch-migration-orchestrator`, `runtime-verifier`, and `workflow-skillify`.
 
-An earlier publish pass used a legacy `claude-code-` prefix for the first 5 skills. Those legacy slugs remain published because the current CLI does not provide an in-place slug rename command.
+When a bare short slug is already owned by another publisher, this project falls back to the shortest available alternative slug rather than returning to the old long prefix.
+
+Current exceptions:
+
+- `code-simplifier` publishes as `code-simplify`
+- `pull-request-reviewer` publishes as `pr-audit`
+
+An earlier publish pass used a legacy `claude-code-` prefix. Those legacy slugs may remain published because the current CLI does not provide an in-place slug rename command.
 
 ### Publish the current queue
 

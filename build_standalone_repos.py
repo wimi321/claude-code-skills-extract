@@ -101,7 +101,7 @@ Copy this repository root into a compatible skill directory, or publish/install 
 
 
 def build_repo(skill_dir: Path) -> None:
-    repo_name = f"claude-code-{skill_dir.name}"
+    repo_name = skill_dir.name
     repo_dir = OUT_ROOT / repo_name
 
     if repo_dir.exists():
