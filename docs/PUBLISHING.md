@@ -58,6 +58,8 @@ An earlier publish pass used a legacy `claude-code-` prefix. Those legacy slugs 
 ./resume_clawhub_publish.sh
 ```
 
+The resume script now skips short slugs that are already owned by `wimi321` and continues with only the remaining unpublished skills.
+
 ### Unattended retry loop
 
 ```bash
