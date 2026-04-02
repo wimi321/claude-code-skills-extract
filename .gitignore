@@ -2,3 +2,6 @@
 .clawhub/
 auto_resume_publish.log
 nohup_publish.out
+__pycache__/
+*.pyc
+standalone-repos/
