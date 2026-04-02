@@ -12,21 +12,27 @@
 
 Blocked by ClawHub new-skill rate limit: max 5 new skills per hour.
 
-- `claude-code-code-simplifier`
-- `claude-code-git-commit-pr-workflow`
-- `claude-code-git-commit-workflow`
-- `claude-code-keybindings-customizer`
-- `claude-code-memory-landscape-review`
-- `claude-code-pull-request-reviewer`
-- `claude-code-recurring-loop-runner`
-- `claude-code-remote-agent-scheduler`
-- `claude-code-runtime-verifier`
-- `claude-code-security-review-workflow`
-- `claude-code-session-debug-log-investigator`
-- `claude-code-statusline-setup`
-- `claude-code-stuck-session-diagnosis`
-- `claude-code-verifier-skill-generator`
-- `claude-code-workflow-skillify`
+- `code-simplifier`
+- `git-commit-pr-workflow`
+- `git-commit-workflow`
+- `keybindings-customizer`
+- `memory-landscape-review`
+- `pull-request-reviewer`
+- `recurring-loop-runner`
+- `remote-agent-scheduler`
+- `runtime-verifier`
+- `security-review-workflow`
+- `session-debug-log-investigator`
+- `statusline-setup`
+- `stuck-session-diagnosis`
+- `verifier-skill-generator`
+- `workflow-skillify`
+
+## Naming Note
+
+The first 5 skills were already published with a legacy `claude-code-` prefix in the registry slug.
+
+The remaining 15 pending skills have been switched to short slugs with no prefix.
 
 ## Monitor
 

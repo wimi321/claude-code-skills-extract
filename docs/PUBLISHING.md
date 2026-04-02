@@ -35,7 +35,9 @@ The sync script will:
 
 ## ClawHub
 
-This project publishes each skill under a `claude-code-` prefixed slug to avoid collisions with existing public skills.
+This project now targets concise ClawHub slugs such as `code-simplifier` and `runtime-verifier`.
+
+An earlier publish pass used a legacy `claude-code-` prefix for the first 5 skills. Those legacy slugs remain published because the current CLI does not provide an in-place slug rename command.
 
 ### Publish the current queue
 
