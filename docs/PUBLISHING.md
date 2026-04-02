@@ -11,7 +11,7 @@ Primary collection repository:
 
 - [claude-code-skills-extract](https://github.com/wimi321/claude-code-skills-extract)
 
-Standalone repositories are generated locally, then synced one-by-one to GitHub under the `<skill-slug>` naming convention.
+Standalone repositories are generated locally, then synced one-by-one to GitHub under the `<skill-slug>-skill` naming convention.
 
 ### Generate standalone repositories
 
